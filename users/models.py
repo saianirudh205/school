@@ -9,3 +9,6 @@ class UserProfile(models.Model):
         ('student', 'Student'),
     )
     role = models.CharField(max_length=10, choices=ROLE_CHOICES)
+
+
+#some comment
